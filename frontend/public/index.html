@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AI-powered Resume Analyzer to improve your job applications." />
+    <meta name="theme-color" content="#0d6efd" />
+    <title>Resume Analyzer AI</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Preconnect to API (optional) -->
+    <link rel="preconnect" href="http://localhost:8000" />
+
+    <!-- Open Graph (SEO + sharing) -->
+    <meta property="og:title" content="Resume Analyzer AI" />
+    <meta property="og:description" content="Analyze resumes with AI. Get strengths, weaknesses, and improvement tips." />
+    <meta property="og:image" content="%PUBLIC_URL%/preview.png" />
+    <meta property="og:url" content="http://localhost:8000" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Resume Analyzer AI" />
+    <meta name="twitter:description" content="Boost your resume with AI analysis." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/preview.png" />
+
+    <!-- PWA Support -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background-color: #f8f9fa;
+        color: #212529;
+      }
+
+      #root {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .loading-fallback {
+        text-align: center;
+        font-size: 1.2rem;
+        padding-top: 40px;
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>
+      <div style="padding: 2rem; text-align: center;">
+        <h2>JavaScript Required</h2>
+        <p>This application requires JavaScript to run properly.</p>
+      </div>
+    </noscript>
+
+    <div id="root">
+      <div class="loading-fallback">Loading Resume Analyzer AI...</div>
+    </div>
+  </body>
+</html>
