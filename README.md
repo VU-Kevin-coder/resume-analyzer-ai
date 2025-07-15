@@ -15,7 +15,12 @@ RESTful FastAPI backend
 CORS-enabled API
 
 ## 🖼️ Demo
-⚙️ [a screenshot or link to a hosted version if available]
+⚙️ 
+<img width="871" height="603" alt="image" src="https://github.com/user-attachments/assets/391cf96a-7a25-4467-acb2-55533650ef2a" />
+
+<img width="1126" height="648" alt="image" src="https://github.com/user-attachments/assets/e6c021fc-6d83-4b72-9e95-29ee1c2e9a11" />
+
+<img width="907" height="566" alt="image" src="https://github.com/user-attachments/assets/4cbaea4c-f677-4472-9496-1b39f04002ae" />
 
 ## 🛠️ Tech Stack
 Frontend	Backend	NLP & AI
