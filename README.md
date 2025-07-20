@@ -30,32 +30,36 @@ CSS (custom)	Uvicorn (ASGI)	TfidfVectorizer (sklearn)
 
 ## 📦 Installation
 1. Clone the repository
+```
 git clone https://github.com/VU-Kevin-coder/resume-analyzer-ai.git
+```
 cd resume-analyzer-ai
 2. ⚙️ Backend Setup (FastAPI)
-
+```bash
    cd backend
    python -m venv venv
    venv\Scripts\activate   # Windows
    .venv/bin/activate   # macOS/Linux
    pip install -r requirements.txt
-
+```
 ## 🔐 Create a .env file (in /backend)
+```
 GOOGLE_API_KEY=your_gemini_api_key_here
-
+```
 ## Run FastAPI backend:
+```
 uvicorn app:app --reload
-
+```
 - Server runs at: http://localhost:8000
 
 - API docs: http://localhost:8000/docs
 
 ## 💻 Frontend Setup (React)
-
+```
 cd frontend
 npm install
 npm start
-
+```
 - React dev server: http://localhost:3000
 
 - Communicates with backend at http://localhost:8000
@@ -63,13 +67,15 @@ npm start
 - Ensure CORS is enabled in FastAPI.
 
 ## 🧪 Test API with cURL
+```
 curl -X POST http://localhost:8000/analyze \
   -H 'accept: application/json' \
   -H 'Content-Type: multipart/form-data' \
   -F 'resume=@cv.pdf' \
   -F 'job_description=Data Entry Specialist'
+```
 ## 📂 Project Structure
-
+```
 resume-analyzer-ai/
 ├── backend/
 │   ├── app.py
@@ -85,6 +91,7 @@ resume-analyzer-ai/
 │   │   │   └── Results.js
 │   └── public/
 └── README.md
+```
 ## 🧠 AI Suggestions Handling
 This project supports one provider:
 
